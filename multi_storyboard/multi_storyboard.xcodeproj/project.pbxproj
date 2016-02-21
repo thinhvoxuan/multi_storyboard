@@ -13,6 +13,7 @@
 		1478DFB91C79688B00BDC862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1478DFB71C79688B00BDC862 /* LaunchScreen.storyboard */; };
 		1478DFC41C79688B00BDC862 /* multi_storyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1478DFC31C79688B00BDC862 /* multi_storyboardTests.swift */; };
 		1478DFCF1C79688B00BDC862 /* multi_storyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1478DFCE1C79688B00BDC862 /* multi_storyboardUITests.swift */; };
+		14A36A4D1C7A182F003930EA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A36A4C1C7A182F003930EA /* MainTabBarController.swift */; };
 		14D4AC4F1C79C84F0098F41E /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4AC4E1C79C84F0098F41E /* PlayersViewController.swift */; };
 		14D4AC521C79C88A0098F41E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4AC511C79C88A0098F41E /* Player.swift */; };
 		14D4AC541C79C8BA0098F41E /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4AC531C79C8BA0098F41E /* SampleData.swift */; };
@@ -53,6 +54,7 @@
 		1478DFCA1C79688B00BDC862 /* multi_storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multi_storyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1478DFCE1C79688B00BDC862 /* multi_storyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multi_storyboardUITests.swift; sourceTree = "<group>"; };
 		1478DFD01C79688B00BDC862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A36A4C1C7A182F003930EA /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		14D4AC4E1C79C84F0098F41E /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayersViewController.swift; path = ViewController/PlayersViewController.swift; sourceTree = "<group>"; };
 		14D4AC511C79C88A0098F41E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Model/Player.swift; sourceTree = "<group>"; };
 		14D4AC531C79C8BA0098F41E /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleData.swift; path = Model/SampleData.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				1478DFB51C79688B00BDC862 /* Assets.xcassets */,
 				1478DFB71C79688B00BDC862 /* LaunchScreen.storyboard */,
 				1478DFBA1C79688B00BDC862 /* Info.plist */,
+				14A36A4C1C7A182F003930EA /* MainTabBarController.swift */,
 			);
 			path = multi_storyboard;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			files = (
 				1478DFAF1C79688B00BDC862 /* AppDelegate.swift in Sources */,
 				14D4AC521C79C88A0098F41E /* Player.swift in Sources */,
+				14A36A4D1C7A182F003930EA /* MainTabBarController.swift in Sources */,
 				14D4AC5A1C79D5800098F41E /* GamePickerViewController.swift in Sources */,
 				14D4AC581C79D0D00098F41E /* PlayerDetailsViewController.swift in Sources */,
 				14D4AC4F1C79C84F0098F41E /* PlayersViewController.swift in Sources */,
@@ -441,8 +445,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = multi_storyboard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.thinhvoxuan.multi-storyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,8 +458,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = multi_storyboard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.thinhvoxuan.multi-storyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
