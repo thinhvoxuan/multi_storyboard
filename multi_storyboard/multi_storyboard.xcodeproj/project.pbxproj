@@ -17,6 +17,8 @@
 		14D4AC521C79C88A0098F41E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4AC511C79C88A0098F41E /* Player.swift */; };
 		14D4AC541C79C8BA0098F41E /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4AC531C79C8BA0098F41E /* SampleData.swift */; };
 		14D4AC561C79CC2F0098F41E /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4AC551C79CC2F0098F41E /* PlayerCell.swift */; };
+		14D4AC581C79D0D00098F41E /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4AC571C79D0D00098F41E /* PlayerDetailsViewController.swift */; };
+		14D4AC5A1C79D5800098F41E /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D4AC591C79D5800098F41E /* GamePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		14D4AC511C79C88A0098F41E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Model/Player.swift; sourceTree = "<group>"; };
 		14D4AC531C79C8BA0098F41E /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleData.swift; path = Model/SampleData.swift; sourceTree = "<group>"; };
 		14D4AC551C79CC2F0098F41E /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerCell.swift; path = ViewController/PlayerCell.swift; sourceTree = "<group>"; };
+		14D4AC571C79D0D00098F41E /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerDetailsViewController.swift; path = ViewController/PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		14D4AC591C79D5800098F41E /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GamePickerViewController.swift; path = ViewController/GamePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 			children = (
 				14D4AC4E1C79C84F0098F41E /* PlayersViewController.swift */,
 				14D4AC551C79CC2F0098F41E /* PlayerCell.swift */,
+				14D4AC571C79D0D00098F41E /* PlayerDetailsViewController.swift */,
+				14D4AC591C79D5800098F41E /* GamePickerViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -283,6 +289,8 @@
 			files = (
 				1478DFAF1C79688B00BDC862 /* AppDelegate.swift in Sources */,
 				14D4AC521C79C88A0098F41E /* Player.swift in Sources */,
+				14D4AC5A1C79D5800098F41E /* GamePickerViewController.swift in Sources */,
+				14D4AC581C79D0D00098F41E /* PlayerDetailsViewController.swift in Sources */,
 				14D4AC4F1C79C84F0098F41E /* PlayersViewController.swift in Sources */,
 				14D4AC541C79C8BA0098F41E /* SampleData.swift in Sources */,
 				14D4AC561C79CC2F0098F41E /* PlayerCell.swift in Sources */,
